@@ -113,6 +113,4 @@ class plotter():
         plt.xticks(x, model, rotation='vertical')
         plt.ylabel(r'$Log\;Evidence(\mathcal{Z})$')
         plt.title(self.plotlabel, fontsize=self.ts)
- #       plt.title(r'$CMB+SNIa+BAO$'+'('+r'$\;WITHOUT\;Ly$'+'-'+ r'$\alpha$'+')'+r'$+GROWTH+H+SL$', fontsize=self.ts)
-
         plt.savefig('%s.eps'%self.plotlabel,bbox_inches='tight')
