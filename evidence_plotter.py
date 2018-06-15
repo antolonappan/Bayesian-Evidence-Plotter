@@ -7,8 +7,8 @@ plt.rcParams.update({'font.size': 15})
 
 
 class plotter():
-    def __init__(self,model_file,evidence_file,plotlabel,linec='black',lw_ref=0.3,
-                 lw_bf=0.2,bf_x=0.2,bf_y=0.2,color='color',ts=10):
+    def __init__(self,model_file,evidence_file,plotlabel,color='color',linec='black',lw_ref=0.3,
+                 lw_bf=0.2,bf_x=0.2,bf_y=0.2,ts=10):
         self.model_file = str(model_file)
         self.evidence_file=str(evidence_file)
         self.plotlabel=str(plotlabel)
